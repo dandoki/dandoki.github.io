@@ -40,6 +40,4 @@ const PostLayouts = {
     hero: HeroPostLayout
 };
 
-export default {
-    PostLayouts,
-};
+export default PostLayouts;
