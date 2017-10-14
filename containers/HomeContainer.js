@@ -13,10 +13,13 @@ import Layout from '../components/Layout';
 const Home = ({ isLoading, posts }) => (
     <Layout>
         <Head>
-            <title>Hello world</title>
+            <title>Pixel Brush</title>
             <meta name="description" content="Everything is awesome!" />
         </Head>
-        <h1>Home</h1>
+        <a href="/">
+            <h1>Pixel Brush</h1>
+        </a>
+        <nav />
         {isLoading && "Loading..."}
         {!isLoading && (
             <ul>

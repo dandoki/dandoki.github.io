@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+nav {
+
+}
+
+html {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #1b0e41;
+    color: white;
+}
+
+a {
+    color: #a8a8a8;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 72px;
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 60px;
+}
+p {
+    font-size: 13px;
+    line-height: 13px;
+}

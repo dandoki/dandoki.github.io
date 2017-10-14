@@ -6,6 +6,8 @@ import HomeContainer from './containers/HomeContainer';
 import BlogPostContainer from './containers/BlogPostContainer';
 import PageError from './components/PageError';
 
+import './styles/app.css';
+
 const routes = () => (
 	<Router history={browserHistory}>
 		<Route path="/" component={HomeContainer} />
