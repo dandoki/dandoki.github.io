@@ -1,7 +1,7 @@
 {
   "name": "dandoki.github.io",
   "version": "0.0.1",
-  "description": "sok.id.au website",  
+  "description": "sok.id.au website",
   "private": true,
   "scripts": {
     "test": "test",
@@ -24,9 +24,12 @@
     "@phenomic/preset-react-app": "^1.0.0-alpha.12",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-router": "^3.2.0"
+    "react-router": "^3.2.0",
+    "react-helmet": "^5.2.0"
   },
   "phenomic": {
-    "presets": ["@phenomic/preset-react-app"]
+    "presets": [
+      "@phenomic/preset-react-app"
+    ]
   }
 }
